@@ -1,34 +1,18 @@
 # lass-json
 lass-json convert online [LASS] mqtt data to json format
 
-### Prerequisite 
+### Prerequisite
 
 ```sh
-$ pip install paho-mqtt
-$ pip install simplejson
+$ pip install -r requirements.txt
 ```
 
 ### Usage
 
 ```sh
-$ python lass-json.py > output.json 
+$ python lass-json.py > output.json
 NOTICE: Connected
 NOTICE: Wait 15 seconds to gather MQTT data
-NOTICE: 1
-NOTICE: 2
-NOTICE: 3
-NOTICE: 4
-NOTICE: 5
-NOTICE: 6
-NOTICE: 7
-NOTICE: 8
-NOTICE: 9
-NOTICE: 10
-NOTICE: 11
-NOTICE: 12
-NOTICE: 13
-NOTICE: 14
-NOTICE: 15
 NOTICE: Disconnected
 ```
 
